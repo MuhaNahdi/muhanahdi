@@ -13,4 +13,10 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+-->  
+#About Me
+##My Interests
+Video gaming, Watching Movies
+##Website I Recommend
+[Google](www.google.com) - This is my go to website for earching
+[ImDB](www.imdb) - I am a big movie lover, in this website, you see the ratings of movies
