@@ -1,0 +1,28 @@
+```mermaid
+flowchart TD
+    A[Start] --> B[Generate Random Number Between 1 and 100]
+    B --> C[Display Instructions: "Guess a number between 1 and 100."]
+    C --> D[User Inputs Guess]
+    
+    D --> E{Is Input a Number?}
+    E -- Yes --> F{Is Guess Within Range?}
+    E -- No --> G[Display Error: "Please enter a valid number."]
+    G --> D
+
+    F -- Yes --> H{Is Guess Correct?}
+    F -- No --> I[Display Error: "Guess out of range. Enter a number between 1 and 100."]
+    I --> D
+    
+    H -- Yes --> J[Display Message: "Congratulations! You guessed it!"]
+    H -- No --> K{Is Guess Too High?}
+    
+    K -- Yes --> L[Display Message: "Your guess is too high. Try again!"]
+    K -- No --> M[Display Message: "Your guess is too low. Try again!"]
+    
+    L --> D
+    M --> D
+    
+    J --> N[Play Again?]
+    N -- Yes --> B
+    N -- No --> O[Display Goodbye Message]
+    O --> P[End]
